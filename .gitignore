@@ -1,0 +1,40 @@
+﻿# Python environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Test and lint caches
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local secrets and environment files
+.env
+.env.*
+
+# Raw and processed datasets
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Model checkpoints and generated artifacts
+artifacts/
+*.pt
+*.pth
+*.safetensors
+*.bin
+
+# Notebook temporary files
+.ipynb_checkpoints/
+
+# Experiment tracking
+wandb/
+
+
+# Generated package metadata
+*.egg-info/
+build/
+dist/
