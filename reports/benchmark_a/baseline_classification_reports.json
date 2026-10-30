@@ -1,0 +1,272 @@
+{
+    "category": {
+        "ACCOUNT": {
+            "precision": 1.0,
+            "recall": 0.024299065420560748,
+            "f1-score": 0.04744525547445255,
+            "support": 535.0
+        },
+        "CANCEL": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 94.0
+        },
+        "CONTACT": {
+            "precision": 1.0,
+            "recall": 0.02030456852791878,
+            "f1-score": 0.03980099502487562,
+            "support": 197.0
+        },
+        "DELIVERY": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 164.0
+        },
+        "FEEDBACK": {
+            "precision": 1.0,
+            "recall": 0.16,
+            "f1-score": 0.27586206896551724,
+            "support": 200.0
+        },
+        "INVOICE": {
+            "precision": 1.0,
+            "recall": 0.049723756906077346,
+            "f1-score": 0.09473684210526316,
+            "support": 181.0
+        },
+        "ORDER": {
+            "precision": 1.0,
+            "recall": 0.003278688524590164,
+            "f1-score": 0.006535947712418301,
+            "support": 305.0
+        },
+        "PAYMENT": {
+            "precision": 0.7741935483870968,
+            "recall": 0.24,
+            "f1-score": 0.366412213740458,
+            "support": 200.0
+        },
+        "REFUND": {
+            "precision": 1.0,
+            "recall": 0.007751937984496124,
+            "f1-score": 0.015384615384615385,
+            "support": 258.0
+        },
+        "SHIPPING": {
+            "precision": 0.49206349206349204,
+            "recall": 0.15897435897435896,
+            "f1-score": 0.24031007751937986,
+            "support": 195.0
+        },
+        "SUBSCRIPTION": {
+            "precision": 1.0,
+            "recall": 0.10101010101010101,
+            "f1-score": 0.1834862385321101,
+            "support": 99.0
+        },
+        "__INVALID_OR_UNKNOWN__": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0.0
+        },
+        "accuracy": 0.06177924217462932,
+        "macro avg": {
+            "precision": 0.7514779127682355,
+            "recall": 0.06957658884982755,
+            "f1-score": 0.11545220495082638,
+            "support": 2428
+        },
+        "weighted avg": {
+            "precision": 0.8343455892214994,
+            "recall": 0.06177924217462932,
+            "f1-score": 0.10288901573865593,
+            "support": 2428
+        }
+    },
+    "intent": {
+        "CANCEL_ORDER": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 43.0
+        },
+        "CHANGE_ORDER": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 85.0
+        },
+        "CHANGE_SHIPPING_ADDRESS": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 96.0
+        },
+        "CHECK_CANCELLATION_FEE": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 94.0
+        },
+        "CHECK_INVOICE": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 92.0
+        },
+        "CHECK_PAYMENT_METHODS": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 100.0
+        },
+        "CHECK_REFUND_POLICY": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 98.0
+        },
+        "COMPLAINT": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 100.0
+        },
+        "CONTACT_CUSTOMER_SERVICE": {
+            "precision": 1.0,
+            "recall": 0.010101010101010102,
+            "f1-score": 0.02,
+            "support": 99.0
+        },
+        "CONTACT_HUMAN_AGENT": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 98.0
+        },
+        "CREATE_ACCOUNT": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 88.0
+        },
+        "DELETE_ACCOUNT": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 90.0
+        },
+        "DELIVERY_OPTIONS": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 65.0
+        },
+        "DELIVERY_PERIOD": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 99.0
+        },
+        "EDIT_ACCOUNT": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 76.0
+        },
+        "GET_INVOICE": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 89.0
+        },
+        "GET_REFUND": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 91.0
+        },
+        "NEWSLETTER_SUBSCRIPTION": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 99.0
+        },
+        "PAYMENT_ISSUE": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 100.0
+        },
+        "PLACE_ORDER": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 99.0
+        },
+        "RECOVER_PASSWORD": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 99.0
+        },
+        "REGISTRATION_PROBLEMS": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 99.0
+        },
+        "REVIEW": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 100.0
+        },
+        "SET_UP_SHIPPING_ADDRESS": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 99.0
+        },
+        "SWITCH_ACCOUNT": {
+            "precision": 1.0,
+            "recall": 0.012048192771084338,
+            "f1-score": 0.023809523809523808,
+            "support": 83.0
+        },
+        "TRACK_ORDER": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 78.0
+        },
+        "TRACK_REFUND": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 69.0
+        },
+        "__INVALID_OR_UNKNOWN__": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0.0
+        },
+        "accuracy": 0.0008237232289950577,
+        "macro avg": {
+            "precision": 0.07407407407407407,
+            "recall": 0.0008203408471146088,
+            "f1-score": 0.0016225749559082893,
+            "support": 2428
+        },
+        "weighted avg": {
+            "precision": 0.07495881383855024,
+            "recall": 0.0008237232289950577,
+            "f1-score": 0.0016294029967835568,
+            "support": 2428
+        }
+    }
+}

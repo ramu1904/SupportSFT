@@ -1,0 +1,6 @@
+tag,total_examples,train_examples,validation_examples,test_examples,categories_represented,intents_represented
+Z,4726,3770,462,494,11,27
+Q,8293,6643,825,825,11,27
+N,394,296,44,54,4,9
+P,1301,1040,125,136,11,27
+W,1280,1012,126,142,11,27

@@ -1,0 +1,37 @@
+split,tag,meaning,count,percentage
+train,M,Morphological variation,3656,18.8269220866162
+train,L,Lexical/semantic variation,17802,91.67310366136259
+train,B,Basic syntactic structure,19419,100.0
+train,I,Interrogative structure,5932,30.54740202894073
+train,C,Coordinated syntactic structure,2077,10.69571038673464
+train,N,Negation,296,1.5242803439929964
+train,P,Politeness,1040,5.3555795870024205
+train,Q,Colloquial language,6643,34.20876461197796
+train,W,Offensive language,1012,5.211390905813894
+train,K,Keyword mode,1175,6.050775014161388
+train,E,Abbreviations,1417,7.296977187290797
+train,Z,Spelling errors and typos,3770,19.413976002883775
+validation,M,Morphological variation,473,19.48908117016893
+validation,L,Lexical/semantic variation,2207,90.93531108364236
+validation,B,Basic syntactic structure,2427,100.0
+validation,I,Interrogative structure,700,28.842192006592498
+validation,C,Coordinated syntactic structure,265,10.918829831067162
+validation,N,Negation,44,1.8129377832715288
+validation,P,Politeness,125,5.150391429748661
+validation,Q,Colloquial language,825,33.992583436341164
+validation,W,Offensive language,126,5.19159456118665
+validation,K,Keyword mode,149,6.139266584260404
+validation,E,Abbreviations,173,7.128141738772147
+validation,Z,Spelling errors and typos,462,19.03584672435105
+test,M,Morphological variation,490,20.181219110378912
+test,L,Lexical/semantic variation,2227,91.72158154859967
+test,B,Basic syntactic structure,2428,100.0
+test,I,Interrogative structure,730,30.065897858319605
+test,C,Coordinated syntactic structure,280,11.532125205930807
+test,N,Negation,54,2.224052718286656
+test,P,Politeness,136,5.601317957166392
+test,Q,Colloquial language,825,33.97858319604613
+test,W,Offensive language,142,5.848434925864909
+test,K,Keyword mode,147,6.0543657331136735
+test,E,Abbreviations,189,7.784184514003295
+test,Z,Spelling errors and typos,494,20.345963756177923

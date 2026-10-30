@@ -1,0 +1,23 @@
+[
+    {
+        "epoch": 1,
+        "global_step": 1314,
+        "train_loss": 0.003010327331935121,
+        "validation_loss": 0.00047105184309754973,
+        "learning_rate": 0.0001374858437146093
+    },
+    {
+        "epoch": 2,
+        "global_step": 2528,
+        "train_loss": 0.00033165918055744973,
+        "validation_loss": 0.0004628384928379882,
+        "learning_rate": 6.874292185730464e-05
+    },
+    {
+        "epoch": 3,
+        "global_step": 3742,
+        "train_loss": 8.069595155634435e-05,
+        "validation_loss": 0.0005732017150906462,
+        "learning_rate": 0.0
+    }
+]

@@ -17,11 +17,21 @@ htmlcov/
 # Raw and processed datasets
 data/raw/*
 !data/raw/.gitkeep
+
 data/processed/*
 !data/processed/.gitkeep
 
-# Model checkpoints and generated artifacts
-artifacts/
+# Benchmark B - local experiments only
+data/processed/benchmark_b/
+reports/benchmark_b/
+
+# Model artifacts - exclude everything by default
+artifacts/*
+!artifacts/training/
+artifacts/training/*
+!artifacts/training/training_history.json
+
+# Exclude model weights and checkpoints
 *.pt
 *.pth
 *.safetensors
@@ -33,8 +43,20 @@ artifacts/
 # Experiment tracking
 wandb/
 
-
 # Generated package metadata
 *.egg-info/
 build/
 dist/
+
+# Intermediate local audit reports
+reports/_local/
+
+# Local tests - retain locally, do not publish
+tests/
+
+# Row-level evaluation outputs
+reports/benchmark_a/baseline_error_analysis.csv
+reports/benchmark_a/fine_tuned_error_analysis.csv
+
+# Detailed intermediate similarity audit
+reports/dataset_audit/split_similarity_audit.csv
