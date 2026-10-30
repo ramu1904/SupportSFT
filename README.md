@@ -716,6 +716,16 @@ This project uses third-party resources:
 
 Please refer to the original dataset and model repositories for their respective licenses, terms, and attribution requirements.
 
+## Trained Adapter
+
+The trained QLoRA adapter is publicly available on Hugging Face:
+
+- **Model:** [SupportSFT-QLoRA](https://huggingface.co/Ramu1904/SupportSFT-QLoRA)
+- **Base model:** [Qwen2.5-0.5B-Instruct](https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct)
+
+The repository contains the trained LoRA adapter weights, adapter configuration, and tokenizer files. It is an adapter, not a standalone base model.
+
+---
 ## License
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
